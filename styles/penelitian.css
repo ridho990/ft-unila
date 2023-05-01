@@ -1,0 +1,213 @@
+section.publikasi {
+	padding: 5rem;
+	justify-content: space-between;
+}
+
+.title {
+	text-decoration: underline;
+	text-decoration-color: #fdcb2c;
+	-moz-text-decoration-color: #fdcb2c;
+}
+
+.image-pub {
+	width: 50%;
+	overflow: hidden;
+}
+
+.image-pub img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all 0.2s cubic-bezier(0.42, 0, 1, 0.63) 0s;
+	-webkit-transition: all 0.2s cubic-bezier(0.42, 0, 1, 0.63) 0s;
+	-moz-transition: all 0.2s cubic-bezier(0.42, 0, 1, 0.63) 0s;
+	-ms-transition: all 0.2s cubic-bezier(0.42, 0, 1, 0.63) 0s;
+	-o-transition: all 0.2s cubic-bezier(0.42, 0, 1, 0.63) 0s;
+}
+
+.image-pub img:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+.info-pub {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h2 {
+	margin-bottom: 1.5rem;
+	font-weight: 600 !important;
+}
+
+.info-pub p {
+	line-height: 1.8rem;
+	opacity: 0.9;
+}
+
+.info-pub h2 {
+	margin-bottom: 1.8rem;
+}
+
+.info-pub button {
+	margin-top: 1rem;
+	padding: 5px 12px;
+	background-color: #fdcb2c;
+	font-weight: 500;
+	border: none;
+	outline: none;
+	opacity: 0.9;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.info-pub button:hover {
+	opacity: 1;
+}
+
+/* ini adalah list jurnal  */
+.jurnal-pilihan {
+	padding: 5rem;
+	background-color: #f3f4f4;
+}
+
+.jurnal-pilihan > h2 {
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.con-jurnal-pilihan {
+	justify-content: space-between;
+}
+
+.card-pel-ak {
+	width: 23%;
+	background-color: #e5e5e5;
+}
+
+.card-pel-ak a {
+	text-decoration: none;
+	color: #000;
+}
+
+.img-pel-ak {
+	overflow: hidden;
+}
+
+.img-pel-ak img {
+	width: 100%;
+	transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+}
+
+.img-pel-ak-hover:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+.card-bawah-pel-ak {
+	display: flex;
+	flex-direction: column;
+	align-items: normal;
+	padding: 3rem 2rem 2rem;
+	transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+}
+
+.title-pel-ak {
+	font-size: 1.25rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	transition: 5s ease, background-color 0.5s ease;
+	text-decoration-color: #fdcb2c !important;
+	-webkit-transition: 5s ease, background-color 0.5s ease;
+	-moz-transition: 5s ease, background-color 0.5s ease;
+	-ms-transition: 5s ease, background-color 0.5s ease;
+	-o-transition: 5s ease, background-color 0.5s ease;
+	-moz-text-decoration-color: #fdcb2c !important;
+}
+
+.card-bawah-pel-ak p {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	opacity: 0.8;
+}
+
+div.arrow-title {
+	align-items: center;
+}
+
+.arrow-title i {
+	font-size: 1rem;
+	margin-right: 1rem;
+	color: #656f77;
+	transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+}
+
+.selengkapnya-pel-ak {
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 0;
+	line-height: 1.5rem;
+	opacity: 0.8;
+}
+
+/* kegiatan penelitian */
+.kegiatan-penelitian {
+	padding: 5rem;
+}
+
+.con-kPenelitian {
+	justify-content: space-between;
+}
+
+.con-kPenelitian:first-of-type {
+	margin-bottom: 3rem;
+}
+
+.last-img {
+	text-align: right;
+}
+
+section.kegiatan-penelitian:last-of-type {
+	padding-top: 0;
+}
+
+section.kegiatan-penelitian:first-of-type {
+	padding-bottom: 3rem;
+}
+
+h1 {
+	padding-bottom: 5px;
+	font-size: 2.25rem;
+	border-bottom: 4px solid #fdcb2c;
+}
+
+.title-page {
+	margin-top: 5rem;
+}
+
+.first-pengabdian {
+	padding-top: 3rem;
+}

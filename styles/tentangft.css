@@ -1,0 +1,94 @@
+section.motivasi p {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	font-size: 1.125rem;
+	line-height: 2.5rem;
+	text-align: center;
+}
+
+.petik {
+	font-size: 2.5rem;
+	line-height: 0;
+	font-weight: bolder;
+	color: #fdcb2c;
+}
+
+.image-back {
+	width: 50%;
+	aspect-ratio: 1.85/1;
+	/* height: 340px; */
+	background: url("/img/qs/sejarah.png") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.con-content-tft {
+	width: 50%;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.con-content-tft p {
+	line-height: 1.8rem;
+}
+
+.con-content-tft h2,
+.maps h2 {
+	font-size: 1.75rem;
+	text-decoration: underline;
+	text-decoration-color: #fdcb2c;
+	-moz-text-decoration-color: #fdcb2c;
+}
+
+.two-tentangft {
+	flex-direction: row-reverse !important;
+}
+
+ol {
+	padding-left: 1rem;
+	margin-bottom: 0 !important;
+}
+
+ol li {
+	/* display: inline !important; */
+	line-height: 1.8rem !important;
+}
+
+.sejarah .con-content-tft {
+	background-color: #1b37be;
+	color: #fff;
+}
+
+.visi .con-content-tft {
+	background-color: #2843c2;
+	color: #fff;
+}
+
+.misi .con-content-tft {
+	background-color: #344dc5;
+	color: #fff;
+}
+
+/* .misi {
+	padding-bottom: 5rem !important;
+} */
+
+.maps {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.maps h2 {
+	margin-bottom: 1.5rem;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 400px;
+	width: 100%;
+}
