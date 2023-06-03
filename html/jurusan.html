@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Jurusan</title>
+		<link rel="icon" type="image/x-icon" href="../img/LOGO UNILA.png" />
+
+		<!-- Menghubungkan css -->
+		<link rel="stylesheet" href="../styles/jurusan.css" />
+		<link rel="stylesheet" href="../styles/style.css" />
+		<link rel="stylesheet" href="../styles/responsive.css" />
+
+		<!-- Import font -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Import bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<header>
+			<nav
+				class="nav-fixed nav-color navbar navbar-expand-lg padding-container"
+			>
+				<div class="container-fluid flex-row-in px-0">
+					<a class="navbar-brand flex-row-in" href="../index.html">
+						<img
+							src="../img/LOGO UNILA.png"
+							alt="Logo"
+							width="40"
+							class="d-inline-block align-text-top"
+						/>
+						<p class="text-light">Fakultas Teknik</p>
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon">
+							<i
+								class="fa fa-navicon"
+								style="color: #fff; font-size: 1.5rem"
+							></i>
+						</span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle text-light"
+									href="../index.html"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Akademik
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="jurusan.html"
+											>Pendidikan dan Jurusan</a
+										>
+									</li>
+									<li>
+										<a class="dropdown-item" href="kalender.html"
+											>Kalender Akademik</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle text-light"
+									href="penelitian.html"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Riset dan Inovasi
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="penelitian.html"
+											>Penelitian</a
+										>
+									</li>
+									<li>
+										<a class="dropdown-item" href="pengabdian.html"
+											>Pengabdian</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle text-light"
+									href="berita.html"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Berita
+								</a>
+								<ul class="dropdown-menu">
+									<li>
+										<a class="dropdown-item" href="berita.html">Berita</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="pengumuman.html"
+											>Pengumuman</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-light" href="tentangft.html"
+									>Tentang FT</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-light" href="pendaftaran.html"
+									>Pendaftaran</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div
+				id="carouselExampleSlidesOnly"
+				class="carousel slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="4000">
+						<img
+							src="../img/slider/ft.jpg"
+							class="d-block w-100"
+							alt="..."
+							loading="lazy"
+						/>
+					</div>
+					<div class="carousel-item" data-bs-interval="4000">
+						<img
+							src="../img/slider/rektor.jpg"
+							class="d-block w-100"
+							alt="..."
+						/>
+					</div>
+					<div class="carousel-item" data-bs-interval="4000">
+						<img
+							src="../img/slider/dekanat.jpg"
+							class="d-block w-100"
+							alt="..."
+						/>
+					</div>
+					<div class="carousel-item" data-bs-interval="4000">
+						<img
+							src="../img/slider/unila-2.jpg"
+							class="d-block w-100"
+							alt="..."
+						/>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="program-pendidikan padding-container">
+				<div class="con-ticon">
+					<h2 class="title-con">Program Pendidikan Fakultas Teknik Unila</h2>
+				</div>
+				<div class="container-fluid flex-row-in">
+					<div class="card-pel-ak">
+						<a href="">
+							<div class="img-pel-ak">
+								<img
+									class="img-ak"
+									src="../img/pelayanan/pelayanan-akademik.png"
+									alt=""
+								/>
+							</div>
+							<div class="card-bawah-pel-ak">
+								<h2 class="title-pel-ak">Sarjana</h2>
+								<p>
+									Program sarjana bisa diikuti oleh lulusan SMA/SMK/MA/MAK,
+									mempunyai beban studi 144-160 sks dan dapat ditempuh dalam
+									waktu 8-14 semester.
+								</p>
+								<div class="arrow-title flex-row-in">
+									<i class="fa-solid fa-circle-arrow-right"></i>
+									<h5 class="selengkapnya-pel-ak">Selengkapnya</h5>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="card-pel-ak">
+						<a href="">
+							<div class="img-pel-ak">
+								<img
+									class="img-ak"
+									src="../img/pelayanan/kepegawaian.png"
+									alt=""
+								/>
+							</div>
+							<div class="card-bawah-pel-ak">
+								<h2 class="title-pel-ak">Sarjana Terapan</h2>
+								<p>
+									Program Sarjana Terapan menawarkan berbagai program studi yang
+									berfokus dalam membekali mahasiswa dengan keterampilan yang
+									relevan dengan tuntutan dunia kerja.
+								</p>
+								<div class="arrow-title flex-row-in">
+									<i class="fa-solid fa-circle-arrow-right"></i>
+									<h5 class="selengkapnya-pel-ak">Selengkapnya</h5>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="card-pel-ak">
+						<a href="">
+							<div class="img-pel-ak">
+								<img class="img-ak" src="../img/pelayanan/alumni.png" alt="" />
+							</div>
+							<div class="card-bawah-pel-ak">
+								<h2 class="title-pel-ak">Pascasarjana</h2>
+								<p>
+									Program sarjana bisa diikuti oleh lulusan SMA/SMK/MA/MAK,
+									mempunyai beban studi 144-160 sks dan dapat ditempuh dalam
+									waktu 8-14 semester.
+								</p>
+								<div class="arrow-title flex-row-in">
+									<i class="fa-solid fa-circle-arrow-right"></i>
+									<h5 class="selengkapnya-pel-ak">Selengkapnya</h5>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="card-pel-ak">
+						<a href="">
+							<div class="img-pel-ak">
+								<img class="img-ak" src="../img/pelayanan/profesi.png" alt="" />
+							</div>
+							<div class="card-bawah-pel-ak">
+								<h2 class="title-pel-ak">Profesi</h2>
+								<p>
+									Program profesi diperuntukkan sebagai bagi lulusan program
+									studi tertentu sebagai syarat untuk mendapatkan gelar
+									keprofesian.
+								</p>
+								<div class="arrow-title flex-row-in">
+									<i class="fa-solid fa-circle-arrow-right"></i>
+									<h5 class="selengkapnya-pel-ak">Selengkapnya</h5>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<section class="container-fluid padding-container jurusan">
+				<div class="con-ticon">
+					<h2 class="title-con">Jurusan di FT Unila</h2>
+				</div>
+				<div class="con-card-jurusan flex-row-in">
+					<div class="card-jurusan-1" href="">
+						<div class="con-imagejs">
+							<img src="../img/qs/sejarah.png" alt="" class="image-js" />
+						</div>
+						<h3 class="title-js">Teknik Sipil</h3>
+						<p>Seputar informasi mengenai jurusan Teknik Sipil</p>
+						<a href="">
+							<button>Selengkapnya</button>
+						</a>
+					</div>
+					<div class="card-jurusan-1" href="">
+						<div class="con-imagejs">
+							<img src="../img/qs/sejarah.png" alt="" class="image-js" />
+						</div>
+						<h3 class="title-js">Teknik Elektro</h3>
+						<p>Seputar informasi mengenai jurusan Teknik Elektro</p>
+						<a href="">
+							<button>Selengkapnya</button>
+						</a>
+					</div>
+					<div class="card-jurusan-1" href="">
+						<div class="con-imagejs">
+							<img src="../img/qs/sejarah.png" alt="" class="image-js" />
+						</div>
+						<h3 class="title-js">Teknik Mesin</h3>
+						<p>Seputar informasi mengenai jurusan Teknik Mesin</p>
+						<a href="">
+							<button>Selengkapnya</button>
+						</a>
+					</div>
+					<div class="card-jurusan-1" href="">
+						<div class="con-imagejs">
+							<img src="../img/qs/sejarah.png" alt="" class="image-js" />
+						</div>
+						<h3 class="title-js">Teknik Kimia</h3>
+						<p>Seputar informasi mengenai jurusan Teknik Kimia</p>
+						<a href="">
+							<button>Selengkapnya</button>
+						</a>
+					</div>
+					<div class="card-jurusan-1" href="">
+						<div class="con-imagejs">
+							<img src="../img/qs/sejarah.png" alt="" class="image-js" />
+						</div>
+						<h3 class="title-js">Teknik Geofisika</h3>
+						<p>Seputar informasi mengenai jurusan Teknik Geofisika</p>
+						<a href="">
+							<button>Selengkapnya</button>
+						</a>
+					</div>
+					<div class="card-jurusan-1" href="">
+						<div class="con-imagejs">
+							<img src="../img/qs/sejarah.png" alt="" class="image-js" />
+						</div>
+						<h3 class="title-js">Teknik Informatika</h3>
+						<p>Seputar informasi mengenai jurusan Teknik Informatika</p>
+						<a href="">
+							<button>Selengkapnya</button>
+						</a>
+					</div>
+					<div class="card-jurusan-1" href="">
+						<div class="con-imagejs">
+							<img src="../img/qs/sejarah.png" alt="" class="image-js" />
+						</div>
+						<h3 class="title-js">Teknik Arsitektur</h3>
+						<p>Seputar informasi mengenai jurusan Teknik Arsitektur</p>
+						<a href="">
+							<button>Selengkapnya</button>
+						</a>
+					</div>
+					<div class="card-jurusan-1" href="">
+						<div class="con-imagejs">
+							<img src="../img/qs/sejarah.png" alt="" class="image-js" />
+						</div>
+						<h3 class="title-js">Teknik Geodesi</h3>
+						<p>Seputar informasi mengenai jurusan Teknik Geodesi</p>
+						<a href="">
+							<button>Selengkapnya</button>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="flex-row-in padding-container">
+			<div class="logo-n-contact">
+				<img src="../img/LOGO UNILA.png" alt="logo-unila" class="logo-footer" />
+				<h5>Fakultas Teknik Unila</h5>
+				<p>Gedong Meneng Bandar Lampung</p>
+				<p><i class="fa-regular fa-envelope"></i>email.ftunila@eng.ac.id</p>
+				<p><i class="fa-brands fa-whatsapp"></i>+62 (123)456789</p>
+				<p><i class="fa-brands fa-whatsapp"></i>+62 (123)456789</p>
+				<p><i class="fa-regular fa-paper-plane"></i>+62 (123)456789</p>
+			</div>
+			<ul class="list-footer">
+				<li><h6>KERJA SAMA</h6></li>
+				<li><a href="">Kerja Sama Dalam Negeri</a></li>
+				<li><a href="">Alumni</a></li>
+				<li><a href="">Urusan Internasional</a></li>
+			</ul>
+			<ul class="list-footer">
+				<li>
+					<h6>TENTANG FT UNILA</h6>
+				</li>
+				<li><a href="">Sejarah</a></li>
+				<li><a href="">Visi dan Misi</a></li>
+				<li><a href="">Pimpinan FT</a> <i class="fas fa-utensils-alt"></i></li>
+			</ul>
+			<ul class="list-footer">
+				<li><h6>KAMPUS</h6></li>
+				<li><a href="">Peta Kampus</a></li>
+				<li><a href="">Agenda</a></li>
+			</ul>
+			<ul class="list-footer">
+				<li><h6>PENDAFTARAN</h6></li>
+				<li><a href="">Sarjana</a></li>
+				<li><a href="">Pasacasarjana</a></li>
+				<li><a href="">Diploma</a></li>
+				<li><a href="">Profesi</a></li>
+			</ul>
+		</footer>
+
+		<script src="../js/script.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+			integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+			integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
