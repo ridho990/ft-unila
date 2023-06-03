@@ -1,0 +1,155 @@
+h1 {
+	font-size: 2rem !important;
+	font-weight: 600 !important;
+	border-bottom: 3px solid #fdcb2c;
+	margin-bottom: 2rem !important;
+}
+.recent-news {
+	padding-top: 5rem;
+}
+
+.big-news {
+	width: 55%;
+	margin-right: 2rem;
+}
+
+.image-big-news {
+	margin-bottom: 2rem;
+}
+
+.image-big-news img {
+	width: 100%;
+}
+
+.big-news-title {
+	font-size: 1.5rem;
+	font-weight: 600;
+	line-height: 2.2rem !important;
+}
+
+a.link-berita {
+	text-decoration: none;
+	color: #000;
+}
+
+.con-small-news {
+	width: 40%;
+}
+
+.small-news-card {
+	margin-bottom: 1.5rem;
+}
+
+.img-news-small {
+	margin-right: 2rem;
+}
+
+.img-news-small img {
+	width: 9.1rem;
+	height: 9.1rem;
+	object-fit: cover;
+}
+
+.small-news-title {
+	font-size: 1.125rem;
+	line-height: 1.7rem;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+.small-news-info p {
+	margin-bottom: 5px !important;
+}
+
+div.small-news-info p.small-info {
+	margin-bottom: 12px !important;
+}
+
+.small-news-info p {
+	font-size: 0.875rem;
+}
+
+.type-news-small,
+.type-big {
+	background-color: #1b37be;
+	color: #fff;
+	font-weight: 500;
+	padding: 5px 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.fa-regular {
+	font-weight: bold !important;
+	color: #fdcb2c;
+}
+
+i {
+	margin-right: 0.3rem;
+}
+
+span {
+	margin-right: 0.5rem;
+	display: inline-block;
+}
+
+/* section pendidikan */
+.padbot-top {
+	padding-top: 5rem;
+}
+
+.padbot-top:last-of-type {
+	padding-bottom: 5rem;
+}
+
+.con-berita {
+	justify-content: space-between;
+}
+
+.card-berita {
+	width: 31.4%;
+}
+
+.img-pel-ak {
+	margin-bottom: 1.5rem;
+	overflow: hidden;
+}
+
+.img-ak {
+	width: 100%;
+	transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+}
+
+.img-ak:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+.box-btn {
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.btn-selengkapnya {
+	cursor: pointer;
+	padding: 7px 12px;
+	background-color: #1b37be;
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
